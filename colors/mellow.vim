@@ -1,7 +1,7 @@
 " Vim color file
 " Maintainer: iyerns <iyerns AT gmail DOT com>
-" Last Change: 25 August 2005
-" Version:1.0
+" Last Change: 29 August 2005
+" Version:1.1
 " Comment: A soft mellow colorful scheme for gui
 
 set background=light
@@ -14,6 +14,7 @@ let g:colors_name="mellow"
 hi Normal   guifg=black	guibg=#FFFFCC 
 hi Title    guifg=black	guibg=white gui=BOLD
 hi lCursor  guibg=Cyan guifg=NONE
+hi Cursor   guibg=#ff0000 guifg=#ffffff
 
 hi LineNr   guifg=white guibg=#666600
 
